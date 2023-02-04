@@ -1,0 +1,55 @@
+/* Stop Watch Project Styling */
+
+body {
+  background: url(img/background_img.jpg) no-repeat center center/ cover;
+  height: 100vh;
+  display: flex;
+  justify-content: right;
+  align-items: center;
+  padding-right: 10%;
+}
+
+.container {
+  background-color: lightgrey;
+  width: 40%;
+  height: 250px;
+  border-radius: 30px;
+  box-shadow: 0 0 3px;
+}
+
+#timer {
+  width: 100%;
+  font-size: 70px;
+  text-align: center;
+  margin: 10px auto;
+}
+
+.buttons {
+  text-align: center;
+  margin-top: 40px;
+}
+
+button {
+  margin: 0 10px;
+  border: none;
+  padding: 0 0;
+}
+
+button i {
+  padding: 10px;
+  font-size: 2rem;
+  color: white;
+  width: 50px;
+}
+
+#play {
+  background-color: green;
+}
+
+#pause {
+  background-color: orange;
+}
+
+#reset {
+  background-color: red;
+}
